@@ -19,5 +19,9 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)onTap:(id)sender {
+    //Function that is called whenever the tap gesture is performed
+    NSLog(@"Hello");
+}
 
 @end
