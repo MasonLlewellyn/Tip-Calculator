@@ -44,5 +44,30 @@
     self.totalLabel.text = [NSString stringWithFormat: @"$%.2f", total];
     
 }
+- (IBAction)onEditBegin:(id)sender {
+    //Move Text box when editing starts
+    CGRect newFrame = self.billField.frame;
+    newFrame.origin.y += 30;
+    
+    [UIView animateWithDuration:0.2 animations:^{
+        self.billField.frame = newFrame;
+        
+        self.tipLabel.alpha = 0;
+        self.totalLabel = 0;
+    }];}
+
+- (IBAction)onEditEnd:(id)sender {
+    //Move text box back once editing is complete
+    CGRect newFrame = self.billField.frame;
+    newFrame.origin.y -= 30;
+    
+    //Wrapping code in this block animates whatever changes are made
+    [UIView animateWithDuration:0.2 animations:^{
+        self.billField.frame = newFrame;
+        
+        self.tipLabel.alpha = 1;
+        self.totalLabel.alpha = 0;
+    }];
+}
 
 @end
