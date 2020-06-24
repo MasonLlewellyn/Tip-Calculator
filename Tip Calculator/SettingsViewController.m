@@ -25,7 +25,6 @@
     self.settingsControl.selectedSegmentIndex = tipIDX;
 }
 - (IBAction)saveButtonTouched:(id)sender {
-    NSLog(@"Saving Defaults");
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:self.settingsControl.selectedSegmentIndex forKey:@"default_tip_index"];
