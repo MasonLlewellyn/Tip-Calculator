@@ -16,6 +16,7 @@
 		C336B3E624A2ABC00007FE18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C336B3E524A2ABC00007FE18 /* main.m */; };
 		C336B3F024A2ABC00007FE18 /* Tip_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C336B3EF24A2ABC00007FE18 /* Tip_CalculatorTests.m */; };
 		C336B3FB24A2ABC00007FE18 /* Tip_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C336B3FA24A2ABC00007FE18 /* Tip_CalculatorUITests.m */; };
+		C336B40A24A304EB0007FE18 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C336B40924A304EB0007FE18 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C336B3F624A2ABC00007FE18 /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C336B3FA24A2ABC00007FE18 /* Tip_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalculatorUITests.m; sourceTree = "<group>"; };
 		C336B3FC24A2ABC00007FE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C336B40824A304EB0007FE18 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		C336B40924A304EB0007FE18 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C336B3D724A2ABBE0007FE18 /* SceneDelegate.m */,
 				C336B3D924A2ABBE0007FE18 /* ViewController.h */,
 				C336B3DA24A2ABBE0007FE18 /* ViewController.m */,
+				C336B40824A304EB0007FE18 /* SettingsViewController.h */,
+				C336B40924A304EB0007FE18 /* SettingsViewController.m */,
 				C336B3DC24A2ABBE0007FE18 /* Main.storyboard */,
 				C336B3DF24A2ABC00007FE18 /* Assets.xcassets */,
 				C336B3E124A2ABC00007FE18 /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 			files = (
 				C336B3DB24A2ABBE0007FE18 /* ViewController.m in Sources */,
 				C336B3D524A2ABBE0007FE18 /* AppDelegate.m in Sources */,
+				C336B40A24A304EB0007FE18 /* SettingsViewController.m in Sources */,
 				C336B3E624A2ABC00007FE18 /* main.m in Sources */,
 				C336B3D824A2ABBE0007FE18 /* SceneDelegate.m in Sources */,
 			);
